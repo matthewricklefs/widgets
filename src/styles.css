@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.inactive {
+  background-color: #9b59b6;
+}
+
+.active {
+  background-color: #3498db;
+
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.end {
+  display: flex;
+  justify-content: flex-end;
+}
